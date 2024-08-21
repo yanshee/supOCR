@@ -1,0 +1,87 @@
+.UserMgmt-container
+{
+    height: 100%;
+}
+ 
+.UserMgmt-component
+{
+    margin: 2px;  
+    width: 300px;
+}
+ 
+.usermgmt-heading
+{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+ 
+.usermgmt
+{
+    margin-bottom: 4px;
+    margin-left: 20px;
+    height: 40px;
+    width: 93%;
+    background-color: #00338E;
+    border-radius: 24px;
+}
+ 
+.usermgmt p
+{
+    color: white;
+    margin-top: 3px;
+    text-align: center;
+    font-size: 24px;
+}
+ 
+.tiles
+{
+    display: block;
+}
+ 
+.tiles-row1,
+.tiles-row2
+{
+    display:flex;
+    width: 100%;
+    height:200px;
+    margin-top: 10px;
+   
+}
+ 
+.Edit-user-tile,
+.Create-user-tile,
+.Remove-user-tile,
+.Supplier-site-tile
+{
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 370px;
+    height: 190px;
+    color: white;
+    border-radius: 12px;
+    background-color: #00338E;
+   
+}
+ 
+.tile-contents
+{
+    margin-top: 80px;
+    margin-left: 120px;
+    display: inline-flex;
+    cursor: pointer;
+}
+ 
+.tiles-component-a
+{
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+ 
+.tiles-Ricons
+{  
+   
+    font-size: 24px;
+}

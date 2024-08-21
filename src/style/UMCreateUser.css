@@ -1,0 +1,134 @@
+
+.UMCreateUser-container
+{
+    margin-top: 20px;
+    height: 100%;
+}
+ 
+.UMCreateUser-Title
+{
+    margin-top: -20px;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+ 
+.UMCreateUser-Title p
+{
+    margin-top: 5px;
+    margin-left: 150px;
+    width: 80%;
+    height: 30px;
+    color: #00338E;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 16px;
+}
+ 
+.UMCreateUser-BasicDetailsContianer
+{
+    background-color: #00338E;
+    height: 370px;
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+}
+.SiteAccessOptions ul li input,.ModuleOptions ul li input {
+    width: auto !important;
+}
+
+.BasicDetails-container,
+.ModuleAccess-container,
+.SiteAccess-container
+{
+    width: 33.33%;
+    border-right: 2px solid white;
+}
+ 
+.ModuleOptions,
+.SiteAccessOptions
+{
+    margin: 20px 30px;
+    height: 300px;
+    overflow-y: auto;
+}
+ 
+.ModuleOptions li,
+.SiteAccessOptions li
+{
+    margin-bottom: 20px;
+}
+ 
+.ModuleOptions-container,
+.SiteAccessOptions-container
+{
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+}
+ 
+.BasicDetails-Title
+{
+    font-size: 24px;
+}
+ 
+.BasicDetails-container
+{
+    width: 33%;
+    color: white;
+}
+ 
+.BasicDetailsContianer-title
+{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 3px;
+}
+ 
+.BasicDetails-contents
+{
+    margin: 30px 30px;
+}
+ 
+.BasicDetails-contents p
+{
+    margin: 5px 0px;
+    font-size: 18px;
+    color: white;
+}
+ 
+.BasicDetails-input
+{
+    margin-top: 0px;
+    height: 30px;
+    width: 300px;
+    border: none;
+    font-size: 16px;
+}
+ 
+.BasicDetails-input::placeholder
+{
+    font-style: italic;
+    padding-left: 5px;
+}
+ 
+.ViewExistingSites-Buttons
+{
+    margin: 8px 15px;
+    float: right;
+}
+ 
+.ViewExistingSites-Buttons button
+{
+    background-color: #00338E;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+    height: 40px;
+    width: 150px;
+}

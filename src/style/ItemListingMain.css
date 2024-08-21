@@ -1,0 +1,98 @@
+.ItemListing-title
+{
+    width: 98%;
+    border: none;
+    border-radius: 0px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+    margin: 10px;
+}
+
+.ItemListing-title text
+{
+    color: #00338E;
+    padding-left: 40%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ItemListing-searchbar
+{
+    margin-top: 20px;
+}
+
+.ItemListing-UploadDownloadBtn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.ItemListing-DownloadTemplateButton
+{
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500px;
+    background-color: #00B7B7;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ItemListing-DownloadTemplateButton-icon
+{
+    height: 20px;
+    width: 20px;
+}
+
+.ItemListing-TableBtns
+{
+    float:right;
+    margin: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemListing-TableContainer
+{
+    margin: 10px;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.ItemListing-TableContainer button
+{
+    display: inline;
+}
+
+.ItemListing-Edit-btn
+{
+    margin: 10px;
+    float: right;
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #00338E;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+}
+.upload-btn-wrapper{
+    width: 30%;
+    
+}
+
+.Uploadbtn{
+
+    height: 35%;
+}

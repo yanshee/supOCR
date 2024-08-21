@@ -1,0 +1,159 @@
+.title
+{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    margin: 10px;
+    margin: 10px;
+}
+
+.title text
+{
+    color: #00338E;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.backBtn
+{
+    padding: 10px;
+    margin: 5px;
+    height: 20px;
+    background-color: #00338E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline;
+    justify-self: center;
+}
+
+.backBtn i
+{
+    font-size: 14px;
+}
+
+.UploadText
+{
+    background-color: #00338E;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ORtext
+{
+    font-weight: 700;
+    margin-left: 55px;
+}
+
+.StoreSelector,
+.SelectedPO
+{
+    padding: 5px;
+    margin: 10px;
+    width: 70%;
+    /* background-color: yellow; */
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.StoreSelector p
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.RetailerStoreInput
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    color: #2e2e2e;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.RetailerStoreInput option
+{
+    font-style: italic;
+    font-size: 16px;
+    color: #2e2e2e;
+}
+
+.POInput
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+}
+
+.POInput input
+{
+    border: none;
+    height: 30px;
+    width: 90%;
+}
+
+.POInput input::placeholder
+{
+    font-style: italic;
+}
+
+.POInput i 
+{
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    color: #2e2e2e;
+}
+
+.form-container
+{
+    display: flex;
+}
+
+.TableWrapper
+{
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.SelectedPO table
+{
+    border-collapse: collapse;
+}
+
+.SelectedPO table tr
+{
+    border-bottom: #2e2e2e solid thin;
+}
+
+.SelectedPO table button
+{
+    cursor: pointer;
+    background-color: transparent;
+    border: red thin solid;
+    color: red;
+}
+
+.form-container a
+{
+    margin: 45px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 24px;    
+    text-decoration: none;
+    text-align: center;
+    background-color: #00338E;
+    color: white;
+    cursor: pointer;
+}

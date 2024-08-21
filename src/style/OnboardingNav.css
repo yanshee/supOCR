@@ -1,0 +1,76 @@
+.OnboardingNav-container {
+    background-color: #00338E;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+}
+
+.OnboardingNav-topline
+{
+    width: 100%;
+    height: 90px;
+    align-content: center;
+    justify-content:space-between;
+    display: flex;
+}
+
+.OnboardingNav-heading {
+    /* margin-top: 17px; */
+    margin-left: 84px;
+    /* margin-bottom: 15px; */
+    color: white;
+    display:block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.OnboardingNav-logo-box
+{
+    height: 85%;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.OnboardingNav-logo
+{
+    height: 70px;
+}
+
+.OnboardingNav-component
+{
+    margin: 10px;   
+    width: 300px;
+}
+
+.OnboardingNav-component-content
+{
+    margin: 10px;
+    width: 220px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    color: #00338E;
+    float: right;
+}
+
+.OnboardingNav-component-Logout,
+.OnboardingNav-component-About
+{
+    margin-top: 15px;
+    display: inline-flex;
+    cursor: pointer;
+    margin-left: 23px;
+}
+
+.OnboardingNav-Ricons
+{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.OnboardingNav-component-a
+{
+    font-size: 15px;
+    font-weight: 500;
+}

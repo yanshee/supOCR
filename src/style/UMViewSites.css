@@ -1,0 +1,190 @@
+.ViewSites-container
+{
+    margin-top: 20px;
+    height: 100%;
+}
+
+.ViewSites-AddBtn
+{
+    height: 30px;
+    width: 120px;
+    margin: 5px 15px;
+    background-color: #00338E;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    color: white;
+    float: left;
+}
+
+.ViewSites-Title
+{
+    margin-top: -20px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+}
+
+.ViewSites-Title p
+{
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    color: #00338E;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 16px;
+}
+
+.ViewSites-ViewSitesContianer
+{
+    background-color: #00338E;
+    height: 370px;
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+}
+
+.ViewExistingSites-container
+{
+    width: 50%;
+    border-right: 2px solid white;
+}
+
+.ViewSitesContianer-title
+{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+
+}
+
+.ViewExistingSitesSearchbar-container
+{
+    justify-content: center;
+    color: #b5b1b1;
+    display: flex;
+    width: 85%;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 12px;
+}
+
+.ViewExistingSitesSearchbar-content
+{
+    justify-content: center;
+    width: 95%;
+    height: 30px;
+    margin-left: 60px;
+    position: relative;
+    border-radius: 8px;
+    color: #b5b1b1;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3 ease;   
+}
+
+.ViewExistingSitesSearchbar-input
+{
+    height: 45%;
+    width: 90%;
+    font-size: 18px;
+    font-style: none;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+    text-align: center;
+}
+
+.ViewExistingSitesSearchbar-input:placeholder-shown
+{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.ViewExistingSitesSearchbar-icon
+{
+    margin-top: 4px;
+    margin-right: 14px;
+    float: right;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.ViewExistingSitesOptions
+{
+    margin: 15px 30px;
+    height: 270px;
+    overflow-y: auto;
+}
+
+.ViewExistingSitesOptions li
+{
+    justify-content: center;
+}
+
+.ViewExistingSitesOptions li input
+{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.ViewExistingSitesOptions-container
+{
+    color: white;
+    margin-top: -20px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.SupplierSiteDetailes-container
+{
+    width: 50%;
+}
+
+
+
+.SupplierSiteDetailes-contents
+{
+    margin: 18px 30px;
+}
+
+.SupplierSiteDetailes-contents p
+{
+    margin: 5px 0px;
+    font-size: 18px;
+    color: white;
+}
+
+.SupplierSiteDetailes-input
+{
+    margin-top: 0px;
+    height: 30px;
+    width: 300px;
+    border: none;
+    font-size: 16px;
+}
+
+.ViewExistingSites-Buttons
+{
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ViewExistingSites-Buttons button
+{
+    background-color: #00338E;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    height: 40px;
+    width: 150px;
+}

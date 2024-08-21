@@ -1,0 +1,158 @@
+.KPMG_Img
+{
+    height: 50px;
+    
+}
+ 
+.login-container {
+    align-self: center;
+    /* background-color: red; */
+    margin: auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    display: flex;
+}
+
+ 
+.login-logo-box {
+    background-color: #00338E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    float: left;
+}
+ 
+.login-form-box {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+}
+/* html, body{
+    height:100vh;
+    overflow-y: hidden;
+} */
+ 
+.login-form
+{
+    width: auto;
+    height: 400px;
+    justify-content: center;
+	align-items: center;
+}
+ 
+h3
+{
+    font-size: 35px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+ 
+.login-inputfields
+{
+    height: 40px;
+    width: 100%;
+    /* margin-left: 50px; */
+    margin-bottom: 15px;
+    border: grey solid 1px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    margin-top:20px;
+    background-color: white;
+}
+ 
+.Login-input
+{
+    height: 28px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+ 
+.Login-input:placeholder-shown {
+    font-style: italic;
+}
+ 
+.Ricons
+{
+    color: #00338E;
+    font-size: 25px;
+    margin-left: 6px;
+    margin-top: 1px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+ 
+#forgotpass
+{
+    color: #00338E;
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 600;
+}
+ 
+.login-links
+{
+    color: #00338E;
+    font-size: 14px;
+    margin-top: 20px;
+    /* text-align: center; */
+    font-weight: 600;
+}
+.form-inputfields {
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+}
+.form-inputfields-temp {
+    padding-bottom: 20px;
+}
+.KPMG-logo-box {
+    display: flex;
+    justify-content: center;
+}
+.login-btn {
+    height: 50px;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #00338E;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0px 0px 11px;
+}
+.setpassword_id {
+    margin: 20px 0px;
+    /* padding-left: 20px; */
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+#temp_password_block
+{
+    display: none;
+}
+#otpfield .Login-input {
+    margin-top: 0px;
+    width: 66%;
+    position: relative;
+    top: 1px;
+}

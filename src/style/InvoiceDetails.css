@@ -1,0 +1,313 @@
+.title
+{
+    width: 98%;
+    border: none;
+    border-radius: 0px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin: 10px;
+}
+ .wrap{
+    display:flex;
+    margin-left: -1%;
+    
+    width:65%
+ }
+.title text
+{
+    color: #00338E;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+ 
+.headingTitle
+{
+    color: #00338E; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+ 
+.backBtn
+{
+    padding: 10px;
+    margin: 5px;
+    height: 20px;
+    background-color: #00338E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline;
+    justify-self: center;
+}
+ 
+.backBtn i
+{
+    font-size: 14px;
+}
+ 
+.InvoiceDetailsTitle,
+.AddedItemsTitle,
+.ItemDetailsTitle
+{
+    padding: 5px;
+    margin: 10px;
+    background-color: #00338E;
+    color: white;
+    border-radius: 16px;
+    text-align: center;
+}
+ 
+.DetailContainer
+{
+    height: 300px;
+    display: flex;
+}
+ 
+.left-pane
+{
+    width: 33.33%;
+    padding: 5px;
+    height: 100%;
+    border-right: #bcbcbc solid 2px;
+    display: flex;
+}
+ 
+.mid-pane
+{
+    padding: 5px;
+    width: 33.33%;
+    height: 100%;
+    border-right: #bcbcbc solid 2px;
+    font-weight: 500;
+}
+ 
+.mid-container
+{
+    margin: 0 24px;
+}
+ 
+.TableWrapper
+{
+    width: 100%;
+    height: 90px;
+    overflow-y: scroll;
+}
+ 
+.ApprovedItemsTable i
+{
+    display: inline;
+    font-size: 18px;
+}
+ 
+.mid-pane table
+{
+    border-collapse: collapse;
+}
+ 
+.mid-pane table tr
+{
+    border-bottom: #2e2e2e solid thin;
+}
+ 
+.mid-pane p
+{
+    margin-top: 12px;
+}
+ 
+.right-pane
+{
+    padding: 5px;
+    width: 33.33%;
+    height: 100%;
+    font-weight: 500;
+}
+ 
+.right-container
+{
+    margin: 0 20px;
+    height: 100%;
+    /* background-color: yellow; */
+}
+ 
+.right-div
+{
+    display: inline;
+    justify-content: center;
+}
+ 
+.fieldName
+{
+    padding-left: 10px;
+    width: 35%;
+    font-weight: 500;
+}
+ 
+.inputFields
+{
+    display: block;
+    width: 65%;
+    justify-items:flex;
+}
+ 
+.inputFields input
+{
+    width: 90%;
+    height: 30px;
+    margin-top: 8px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    color: #2e2e2e;
+    font-style: italic;
+}
+ 
+.right-pane input
+{
+    width: 50%;
+    height: 30px;
+    float: right;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    color: #2e2e2e;
+    font-style: italic;
+}
+ 
+.AttachmentsInput 
+{
+    width: 100% !important;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    color: #2e2e2e;
+    font-style: italic;
+}
+ 
+.fileFormat
+{
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+    font-style: italic;
+}
+ .invoice{
+    display:flex;
+    margin-left:12%;
+    width:65%;
+    justify-content:space-between;
+    /* background-color: red; */
+    height:30%;
+    padding-bottom: 1%;
+ }
+.invQty
+{
+    width: 20%;
+    padding-left: 0px;
+    text-align: center;
+}
+.item1{
+    /* margin-top:2%;
+    width:10%;
+    border-radius: 11px;
+    padding: 2px,2px;
+    margin-right: 2%;
+    display: flex;
+    color:white;
+    background-color: #00338E ; */
+    display: flex;
+}
+.item-fields1{
+    border-radius: 6px;
+    margin-top: 2%;
+    color:white;
+    width: 45%;
+    height:110%;
+    margin-left:17%;
+    background-color:#00338E;
+}
+ .RetailerReturnTextInput1{
+    width:30%;
+    height:100%;
+    margin-left: 5%;
+    margin-top:3%
+
+ }
+/* .nextBtn {
+    float: right;
+    margin: 22px;
+    padding: 10px 65px;
+    height: 20%;
+    background-color: #00338E;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline;
+    justify-self: center;
+    cursor: pointer;
+ 
+} */
+.nextBtn {
+     float: right;
+     background-color: #00338E;
+     color: white;
+     padding: 0.3% 2%;
+     text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline;
+    justify-self: center;
+    cursor: pointer;
+    /* margin: 22px; 
+     padding: 10px 65px; 
+    
+    
+   
+    
+    margin-top: 4%;
+    height: 40%; */
+
+}
+.nextBtn1 {
+    float: right;
+    background-color: #00338E;
+    color: white;
+    padding: 2.5% 3.2%;
+    text-decoration: none;
+   border-radius: 5px;
+   text-align: center;
+   display: inline;
+   justify-self: center;
+   cursor: pointer;
+   margin-top: 2%;
+}
+.invoice-total {
+    width: 11%;
+    float: right;
+}
+ 
+.InvoiceTotal
+{
+    float: right;
+}
+ 
+.InvoiceTotal text
+{
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 10px;
+}
+ 
+.InvoiceTotal input
+{
+    height: 30px;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    border: solid black thin;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    color: #2e2e2e;
+}

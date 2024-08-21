@@ -1,0 +1,33 @@
+.UploadButton
+{
+    width: 150px;
+    height: 40px;
+    margin-left: 95px;
+    font-size: 16px;
+    font-weight: 500px;
+    background-color: #00338E;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.UploadButton:hover
+{
+    background-color: white ;
+    color: #00338E;
+    font-weight: bolder;
+    border: 3px solid #00338E;
+    
+}
+
+.UploadButton-icon
+{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+

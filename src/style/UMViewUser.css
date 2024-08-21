@@ -1,0 +1,106 @@
+.UMViewUser-container
+{
+    margin-top: 20px;
+    height: 100%;
+}
+
+.UMViewUser-AddBtn,
+.UMViewUser-ExportBtn
+{
+    height: 30px;
+    width: 150px;
+    margin: 5px 25px;
+    background-color: #00338E;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    color: white;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.UMViewUser-Title
+{
+    margin-top: -20px;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.UMViewUser-Title p
+{
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    color: #00338E;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 16px;
+}
+
+.UMViewUser-EditViewContianer
+{
+    background-color: #00338E;
+    height: 370px;
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+}
+
+.ExistingUsers-container,
+.ModuleAccess-container,
+.SiteAccess-container
+{
+    width: 33.33%;
+    border-right: 2px solid white;
+}
+
+.ExistingUsersOptions,
+.ModuleOptions,
+.SiteAccessOptions
+{
+    margin: 20px 30px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.ExistingUsersOptions li,
+.ModuleOptions li,
+.SiteAccessOptions li
+{
+    margin-bottom: 20px;
+}
+
+.ExistingUsersOptions-container,
+.ModuleOptions-container,
+.SiteAccessOptions-container
+{
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+
+.ViewExistingSites-Buttons
+{
+    margin: 8px 15px;
+    float: right;
+}
+
+.ViewExistingSites-Buttons button
+{
+    background-color: #00338E;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+    height: 40px;
+    width: 150px;
+}

@@ -1,0 +1,293 @@
+
+.create-user {
+    width: 13%;
+    background-color: #00338E;
+    /* margin-left: 85%;
+    margin-top: 2%; */
+    size: 16px;
+    font-weight: 600;
+    height:max-content;
+    margin-top: 1.5%;
+    /* z-index: 9999; */
+}
+.Sidebar-div{
+    background-color: bisque;
+}
+.upper-div {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin-left: 5%;
+}
+.admin-table {
+    width: 54%;
+    margin-top: 2%;
+    margin-left: 20%;
+    z-index: -1;
+    position: relative;
+
+}
+.admin-table thead{
+    background-color:white;
+    color:black
+}
+.summary-onboard {
+    height: 150vh;
+    width: 90%;
+    /* background-color: yellow; */
+    margin-left: 5%;
+    margin-top: 2%;
+    display:flex;
+    justify-content: space-between;
+}
+.left-summary{
+width:48%;
+height:90%;
+background-color: white;
+box-shadow: -5px -5px 21px 5px #ccc;
+}
+.right-summary-main{
+    width:50%;
+    height:80%;
+    /* background-color: blue; */
+    display: block;
+    
+}
+.right-summary{
+    width:100%;
+    height:90%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px #ccc;
+    
+    }
+    .bottom-new-btn {
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 0px;
+        height:auto;
+        justify-content: space-between;
+        display:flex
+    }
+    .reject-revert-btn{
+    height: 45px;
+    width: 18%;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #00338E;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    }
+
+/* Modal CSS */
+    .Modal {
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: auto;
+        bottom: auto;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        z-index: 9999;
+    }
+    
+    .Overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    
+    /* h2 {
+        margin-bottom: 20px;
+    }
+     */
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .form-group input {
+        width: calc(100% - 10px);
+        padding: 5px;
+    }
+    
+    .form-actions {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .form-actions button {
+        margin-left: 10px;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .form-actions button:first-child {
+        background-color: gray;
+        color: white;
+    }
+    
+    .form-actions button:last-child {
+        background-color: #00338E;
+        color: white;
+    }
+    .privileges-div {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        
+        /* background-color: bisque; */
+        margin-top: 3%;
+        margin-left: 10%
+    }
+    /* .priviliges,.assigned-priviliges{
+        
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        background-color: white;
+        width:30%;
+        height:70%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        border-radius:10px;
+        display: block;
+    } */
+    .priviliges, .assigned-priviliges {
+        /* flex: 1; */
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        background-color: #C0C5E0;
+        width: 28%;
+        height: 70%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        border-radius: 10px;
+        /* display: block; */
+        flex-direction: column;
+    }
+    .privilege-input{
+        /* margin-left: 15%; */
+        margin-bottom: 7%;
+        padding-bottom: 20px;
+        
+    }
+    .new-submit-btn {
+        height: 45px;
+        width: 12%;
+        border: none;
+        border-radius: 20px;
+        text-decoration: none;
+        background-color: #00338E;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        margin-left: 77.5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        /* padding-bottom: 30px; */
+    }
+
+    .reset-box {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    box-sizing: border-box;
+    margin-left: 33%;
+}
+.reset-box form{
+    display: flex;
+    flex-direction: column;
+    
+    width:70%;
+    height:70%;
+    margin-left: 5%;
+  margin-top: 8%;
+}
+.reset-box input,select  {
+    margin-top: 5px;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    margin-left: 15%;
+    background-color: #CACAE4;
+}
+.reset-box label{
+    margin-top: 10%;
+    margin-left: 15%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.reset-password-btn{
+        height: 45px;
+        width: 30%;
+        border: none;
+        border-radius: 20px;
+        text-decoration: none;
+        background-color: #00338E;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 17%;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;     
+}
+.view-priviliges-details{
+    background-color: #CACAE4;
+    height: 350px;
+    width: 1000px;
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-top: 5%;
+    align-content: center;
+   
+  
+}
+.assigned-privileges-field{
+ /* background-color: yellow; */
+    height: 250px;
+    width: 800px;
+    box-sizing: border-box;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+.first-row {
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: inherit;
+    margin-bottom: 2%;
+}
+.first-row input{
+    background-color: white;
+    width:200px;
+    height:40px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    margin-right: 8%;
+}

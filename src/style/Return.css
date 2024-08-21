@@ -1,0 +1,290 @@
+
+.item{
+    display: flex;
+    align-content: space-between;
+    margin-bottom: 3px;
+}
+.item-date{
+    margin-top: 3%;
+    display: flex;
+    align-content: space-between;
+    height: 15%;
+    /* background-color: blue; */
+}
+.RetailerReturnTextInput{
+    background-color: rgb(208, 204, 204);
+    width:60%;
+    font-weight: 100;
+}
+.PurchaseOrderMain-container1{
+    height: 200%;
+}
+/* .left-wrapper{
+    background-color: yellow;
+}
+.mid-wrapper{
+    background-color: green;
+}
+.right-wrapper{
+    background-color: pink;
+} */
+.RetailerReturnTextInput{
+    width:60%
+}
+.item-fields{
+    height: 30px;
+    width:33%;
+    /* background-color: red; */
+    margin-top: 2%;
+}
+.item-fields-date{
+    width:50%;
+        /* background-color: red; */
+}
+.item-fields-po,
+.item-fields-asn{
+    height: 60px;
+    width:25%;
+    margin-top: 2%;  
+    
+}
+.item-eway{
+    /* background-color: yellow; */
+    margin-top:8% ;
+}
+.left-wrapper-eway{
+    /* background-color: red; */
+    margin-right: 70%;   
+}
+.date{
+    width: 40%;
+    /* background-color: black; */
+    
+}
+.RetailerReturnTextInput-date {
+    /* background-color: red; */
+    border-radius: 8px;
+    width: 45%;
+    height: 80%;
+    
+
+    border-color: #f3efef;
+    margin-top: 1%;
+}
+.RetailerReturnTextInput-po,
+.RetailerReturnTextInput-asn{
+   
+    background-color: rgb(208, 204, 204);  
+    width:55%;
+    overflow-y: scroll;
+    font-weight: 100;
+}
+.Address{
+    background-color: rgb(208, 204, 204);  
+    width:55%;
+    overflow-y: scroll;
+    font-weight: 100;
+}
+.item-scroll{
+    max-height: 120px;
+    overflow-y: scroll;
+    background-color: red;
+    
+}
+.RetailerReturnTextInput-address{
+    background-color: rgb(208, 204, 204); 
+    width: 180%;
+    margin-left: 11%;
+    font-weight: 100;
+}
+
+.image-div{
+    
+     height:8%;
+    width:90%;
+    margin-top: 1%;
+    margin-left: 40%;
+   /* display: flex;
+    align-items: space-evenly; */
+}
+.images-broken{
+    background-color: blue;
+    height:20%;
+    width:20%;
+    margin-top:2%;
+    margin-right:5%
+}
+.close-button{
+    
+    margin-top: 2%; 
+    width:10%;
+    margin-left: 47%;
+    
+}
+.item-fields {
+    font-weight: 300;
+    font-size: 30;
+    min-width: 140px;
+    padding-right: 10px;
+}
+.Retailer-comment {
+    display:block;
+    width: 20%;
+    height: 100px;
+    margin-left: 11%;
+    border-radius: 10px;
+    background-color: rgb(208, 204, 204); 
+    /* margin-top: %; */
+    
+}
+ .item-fields-retailer-comment{
+    margin-top: 2%;
+    margin-left: 11%;
+    /* background-color: red; */
+    font-size: 18px;
+    font-weight:bold;
+} */
+.outer-wrapper-comment{
+    width:20%;
+    margin: 10px;
+    margin-left: 11%;
+    margin-right: 11%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 20%;
+}
+
+.process-return{
+    display: flex;
+    margin-left: 11.5%;
+    margin-top:2%;
+    width:73%;
+    justify-content: space-between;
+   
+}
+.process-return-button{
+    background-color: #00338E;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    /* margin-inline-start: 80%; */
+}
+.item-fields-desc{
+    font-size: 18px;
+    font-weight:bold;
+}
+.item-description-heading{
+    /* width:95%;
+    background-color: blue;
+    margin-right: 10%; */
+    display: block;
+    /* justify-content: space-between; */
+}
+.item-details{
+    width:95%;
+    /* background-color: red; */
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-fields-msg{
+    
+}
+.RR-RaiseConcernContainer
+{
+    height: 300px;
+    width: 60%;
+    border-radius: 16px;
+    margin-left: 23%;
+    margin-top: 2%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+    padding-top: 0.2%; 
+    padding-bottom: 2%;
+}
+.RR-RaiseConcern{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+    height: 50%;
+    width: 80%;
+    margin-left: 8.5%;
+    /* background-color: red; */
+}
+
+.RR-item-description{
+    width:70%;
+    /* background-color: blue; */
+    margin-top: 3%;
+    /* background-color: red; */
+    margin-left: 8.5%;
+    display: block;
+    padding-bottom: 2%;
+    
+}
+.item-information{
+    /* background-color: yellow; */
+    margin-left: 25%;
+    
+}
+.Edit-button{
+    text-align: center;
+    margin-right: 4%;
+    margin-top: 18%;
+    height: 30px;
+    width: 13%;
+    background-color: #00338E;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 24px;
+    float: right;
+}
+.downarrow{
+    margin-left: 80%;
+    width: 20%;
+   /* background-color: red; */
+    margin-top: -13px;
+}
+.Raise-concern-button{
+    text-align: center;
+    margin-right:16%;
+    /* margin-top: 4%;  */
+    height: 30px;
+    width: 10%;
+    background-color: #00338E;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 24px;
+    float: right;
+}
+.AWB{
+   
+    width:40%;
+    margin-left: 40%;
+}
+
+.TplDispatch{
+   
+    display:flex ;
+    width:60%;
+    margin-left: 18%;
+    height: 10%;
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    font-size: 20px;
+}
+.dispatch{
+    margin-left: 15%;
+    font-size: 20px;
+}
+.tpl{
+    margin-left: 2%;
+}
+.save{
+    width: 30%;
+    display: flex;
+    margin-left: 65%;
+}
+

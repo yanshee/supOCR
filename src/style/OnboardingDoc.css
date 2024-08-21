@@ -1,0 +1,95 @@
+.Onboarding-ProgressBar
+{
+    width: 60%;
+}
+
+.OBDoc-backBtn-container
+{
+    height: 25px;
+    width: 70px;
+    margin-left: 15%;
+    font-weight: 500;
+}
+
+.OBDoc-backBtn
+{
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.OBDoc-Title
+{
+    margin-left: 15%;
+    font-weight: 500;
+}
+
+.OBDoc-DocUpload-box
+{
+    margin-left: 15%;
+    width: 70%;
+}
+
+.OBDoc-DocUpload-Table
+{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#RowGap
+{
+    background-color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+.DocTableCol1
+{
+    text-align: left;
+    background-color: #d9d9d9;
+    width: 30%;
+}
+
+.DocTableCol3
+{
+    text-align: left;
+}
+
+
+
+.OBDoc-DocUpload-checkbox
+{
+    margin: 10px;
+}
+
+.OB-next-btn
+{
+    background-color: #00338E;
+    color: white;
+    margin: 0px 44%;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    width: 150px;
+    height: 30px;
+    justify-self: center;
+}
+.doclabel{
+    width: 200px;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-right: 10%;
+    width:35%;
+    text-align: left;
+    
+   }
+   .misdetails{
+    width:80%;
+    margin: 0px auto;
+   }
+   .doc-btn{
+    height:40px;
+    margin-top: 1%;
+    width:350px;
+    align-content: center;
+   }

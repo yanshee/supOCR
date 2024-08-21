@@ -1,0 +1,14 @@
+.Po-Images{
+    background-color: #00338E;
+    color:white;
+    margin-left: 11%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500 ;
+    width:80%;
+    height:35px;
+    border-radius: 10px;
+}

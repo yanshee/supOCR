@@ -1,0 +1,99 @@
+.CC-title
+{
+    width: 98%;
+    border: none;
+    border-radius: 0px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.CC-title text
+{
+    color: #00338E;
+    padding-left: 35%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.CC-ItemListingContainer
+{
+    margin: 3px 50px;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    display: flex;
+    height: 350px;
+}
+
+.CC-ItemListingDetails
+{
+    margin-top: -3%;
+    padding: 50px;
+    width: 50%;
+    display: flex;
+}
+
+#itemDescription
+{
+    height: 75px;
+}
+
+.CC-ItemListingImage
+{
+    width: 50%;
+}
+
+.CC-ItemImage
+{
+    height: 65%;
+    width: 35%;
+    margin: 10%25%;
+}
+
+.CC-ItemListingSubmitBtn
+{
+    margin: -5px 60px;
+    height: 30px;
+    width: 100px;
+    align-content: center;
+    justify-content: center;
+    background-color: #00338E;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 24px;
+    float: right;
+}
+
+p {
+    display: block;
+    width: 100%;
+}
+.fieldName{
+    width:30%
+}
+.inputFields{
+    
+    margin-top: 2%;
+}
+
+.input {
+    height: 28px;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-top: 4px;
+}
+
+.confirm-button-div{
+    display:flex;
+    align-content: space-between;
+}

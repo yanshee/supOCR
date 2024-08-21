@@ -1,0 +1,228 @@
+.PO-wrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 11%;
+    margin-right: 11%;
+    border-radius: 12px;
+    width: 73%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    background-color: white;
+    padding: 19px 7px;
+}
+.item-fields {
+    font-weight: bold !important;
+    font-size: 30;
+}
+.mid-wrapper {
+    border-right: 1px solid grey;
+    padding-right: 50px;
+}
+.left-wrapper {
+    border-right: 1px solid grey;
+}
+.PO-wrapper1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 11%;
+    margin-right: 11%;
+    border-radius: 12px;
+    width: 73%;
+    height: 210px;
+    display: flex;
+    flex-direction: row;    
+   justify-content:space-evenly;
+   padding-left:10px;
+}
+.Po-summary,
+.ASN-Details,
+.Item-Details,
+.ASN-Number1,
+.ASN-Number2,
+.ASN-Info{
+    background-color: #00338E;
+    color:white;
+    margin-left: 11%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500 ;
+    width:74%;
+    height:35px;
+    border-radius: 10px;
+}
+
+.OnboardingSubmission-form-box p {
+    /* background-color: red; */
+    width: 43%;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.OnboardingRow{
+    display: flex;
+    align-items: center;
+}
+.Downarraow,
+.Uparraow{
+    justify-self: end;
+    align-items: end;
+    justify-content: end;
+}
+ 
+ .ASN-Details-table{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:75%;
+    margin-left: 150px;
+    border-radius: 13px;
+    margin-top: 1px;
+    display: flex;
+    align-content: space-between;
+ }
+ .ASN{
+    display: block;
+    font-size: 16px;
+    font-weight: 100%;
+    align-content: space-between;  
+ }
+ /* .Back-button{
+    display:flex;
+    flex-direction: row;
+    margin-right: 55%;
+ } */
+ .PurchaseOrderMain-Ricons-Back{
+    font-size: 16px;
+    margin-top: 14px;
+ }
+.PurchaseOrderMain-Back-a{
+    font-size: 18px;
+    margin-top: 9px;
+    /* text-color:white; */
+}
+ 
+ .outer-wrapper {
+    margin: 10px;
+    margin-left: 11%;
+    margin-right: 11%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 73%;
+    max-height: fit-content;
+    /* background-color: red; */
+ 
+}
+.spanClass{
+    /* background-color: #be0505;
+    margin-left: 4%; */
+
+}
+.item span {
+    margin-top: 9px;
+}
+.table-wrapper {
+    overflow-y: scroll;
+        height: -moz-fit-content;
+    height: fit-content;
+    max-height: 30vh;
+    /* margin-top: 30px; */
+    /* margin: 15px; */
+    padding-bottom: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+}
+.right-wrapper-customer{
+    background-color: red;
+    height:65%
+}
+ 
+table {
+   min-width: max-content;
+   border-collapse: separate;
+   border-spacing: 0px;  
+ justify-content: center;
+ margin-left: 5%;
+}
+ 
+table th {
+    position: sticky;
+    height: 15px;
+    background-color: #5C5C5C;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
+ 
+table th, table td {
+    padding: 15px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    text-align: left;
+}
+ 
+table td {
+    text-align: left;
+    font-size: 15px;
+    /* border: 1px solid rgb(177, 177, 177); */
+    padding-left: 20px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  table.table {
+    width: 100%;
+    /* padding: 30px; */
+    margin: 0px auto;
+    /* margin-left: 127px; */
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    text-transform: capitalize;
+}
+.CO-piclist-wrapper{
+    /* background-color: red; */
+    margin-top: 4%;
+}
+.item-fields-accepted-info{
+    margin-left: 12%;
+    font-weight: 500;
+}
+.item-co{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-left: 12%;
+    width:50%
+}
+.item-fields-co{
+    height: 25px;
+    width:15%;
+    font-weight: 600;  
+}
+.COTextInput{
+    width:20%;
+    height: 25px;
+    background-color: rgb(208, 204, 204);
+}
+.co-accept-reject-btn{
+    display: flex;
+    width:28%;
+    margin-left: 62%;
+   
+}
+.Address{
+    background-color: rgb(208, 204, 204);  
+    width:80%;
+    overflow-y: scroll;
+    font-weight: 100;
+}
+.Picklisted{
+    background: gray;
+  }

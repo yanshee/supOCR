@@ -1,0 +1,89 @@
+/* .sidenav {
+    height: 100%;
+    width: 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white;
+    transition: 0.3s;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav.expanded {
+    width: 200px;
+}
+
+.sidenav .nav-toggle {
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidenav .nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.sidenav .nav-item:hover {
+    background-color: #575757;
+}
+
+.sidenav .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: gray;
+}
+
+.sidenav .icon-text {
+    display: none;
+    background-color: gray;
+}
+
+.sidenav.expanded .icon-text {
+    display: inline;
+} */
+
+/* .sidebar {
+    position: fixed;
+    height: 100%;
+    background-color: #333;
+    transition: width 0.3s;
+    overflow: hidden;
+    display: flex;
+}
+
+.sidebar-icons {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-expanded {
+    width: 200px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.sidebar .icon,
+.sidebar .item {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar .icon:hover,
+.sidebar .item:hover {
+    background-color: #575757;
+}
+ */

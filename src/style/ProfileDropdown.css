@@ -1,0 +1,106 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top:-8px;
+    width:170px;
+    height:5vh;
+  }
+  
+  .dropdown-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  
+  /* .dropdown-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+  } */
+  .dropdown-menu-profile {
+    position: absolute;
+    top: 42px;
+    right: -10px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    height:27vh;
+    width: 138px;
+}
+.dropdown-menu-profile ul{
+    margin-right:10%
+}
+  
+  .dropdown-header {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .dropdown-header p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-menu ul li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .dropdown-menu ul li:hover {
+    background-color: #f1f1f1;
+  }
+.userProfileImg{
+    width: 36px;
+    height: 35px;
+}  
+.Image-div {
+    Width: 35px;
+    height: 30px;
+    display: flex;   
+}
+.BellImg{
+    width: 36px;
+    height: 35px;
+
+}
+.notification-div{
+    Width: 35px;
+    height: 30px;
+    display: flex;
+    margin-left: 69%;
+    margin-top: -29px;
+}
+.limenu {
+    margin-left: -30px;
+    display: flex;
+    font-weight:600px ;
+}
+.liImg{
+    width: 15px;
+    height: 15px;
+    margin-top:4px;
+    margin-right: 10px;
+}

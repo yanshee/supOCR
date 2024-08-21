@@ -1,0 +1,24 @@
+.UpdateHistory
+{
+    width: 150px;
+    height: 30px;
+    margin-left: 95px;
+    font-size: 14px;
+    font-weight: 500px;
+    background-color: #00338E;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.UpdateHistory:hover
+{
+    background-color: white ;
+    color: #00338E;
+    font-weight: bolder;
+    border: 3px solid #00338E;
+}

@@ -1,0 +1,133 @@
+.AddSites-container
+{
+    margin-top: 20px;
+    height: 75vh;
+}
+
+.AddSites-AddBtn
+{
+    height: 30px;
+    width: 120px;
+    margin: 5px 15px;
+    background-color: #00338E;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    color: white;
+    float: left;
+}
+
+.AddSites-Title
+{
+    margin-top: -20px;
+    padding-left: 15%;
+    height: 35px;
+    text-align: center;
+    display: flex;
+}
+
+.AddSites-Title p
+{
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    color: #00338E;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 16px;
+}
+
+.AddSites-AddSitesContianer
+{
+    background-color: #00338E;
+    height: 80%;
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+}
+
+.ViewExistingSites-container
+{
+    width: 50%;
+    border-right: 2px solid white;
+}
+
+
+.ViewExistingSitesSearchbar-container
+{
+    justify-content: center;
+    color: #b5b1b1;
+    display: flex;
+    width: 85%;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 12px;
+}
+
+.ViewExistingSitesSearchbar-content
+{
+    justify-content: center;
+    width: 95%;
+    height: 30px;
+    margin-left: 60px;
+    position: relative;
+    border-radius: 8px;
+    color: #b5b1b1;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3 ease;   
+}
+
+.ViewExistingSitesOptions-container
+{
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.SupplierSiteDetailes-container
+{
+    width: 50%;
+}
+
+.SupplierSiteDetailes-contents
+{
+    margin: 30px 30px;
+}
+
+.SupplierSiteDetailes-contents p
+{
+    margin: 5px 0px;
+    font-size: 18px;
+    color: white;
+}
+
+.SupplierAddSiteDetailes-input
+{
+    margin-top: 0px;
+    height: 35px;
+    width: 60%;
+    border: none;
+    font-size: 16px;
+}
+
+.ViewExistingSites-Buttons
+{
+    margin: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ViewExistingSites-Buttons button
+{
+    background-color: #00338E;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    height: 40px;
+    width: 150px;
+}

@@ -1,0 +1,23 @@
+.filter-button {
+    background-color: #00338E;
+    color: #fff;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px 10px; /* Add padding for better button appearance */
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content:left;
+    float: right;
+}
+
+.filter-button i {
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 12px;
+}
+.filter-button select{
+    background-color: white;
+}

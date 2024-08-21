@@ -1,0 +1,22 @@
+.sort-button {
+    background-color: #00338E;
+    color: #fff;
+    border: none;
+    width: 90px;
+    border-radius: 20px;
+    padding: 5px 10px; /* Add padding for better button appearance */
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.sort-button i {
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 12px;
+}
+

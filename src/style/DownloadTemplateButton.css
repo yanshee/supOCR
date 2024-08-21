@@ -1,0 +1,33 @@
+.DownloadTemplateButton
+{
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500px;
+    background-color: #00338E;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 700px;
+}
+
+.DownloadTemplateButton:hover
+{
+    background-color: white ;
+    color: #00338E;
+    font-weight: bolder;
+    border: 3px solid #00338E;
+    
+}
+
+.DownloadTemplateButton-icon
+{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+

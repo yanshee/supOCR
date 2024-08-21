@@ -1,0 +1,159 @@
+.ItemListingItemEditPage-Container
+{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    height: 400px;
+    margin: 30px 90px;
+    background-color: #eee
+}
+
+.ItemListingItemEditPage-Form
+{
+    width: 94%;
+    height: 80%;
+    /* background-color: yellow; */
+    padding: 3%;
+    display: flex;
+}
+
+.ItemListing-Form-LeftPane,
+.ItemListing-Form-RightPane
+{
+    width: 50%;
+}
+
+.ItemListing-Form-LeftPane
+{
+    /* background-color: red; */
+    /* padding: 30px; */
+}
+
+.ItemListing-Form-RightPane
+{
+    display: block;
+    margin-left: 10%;
+}
+
+.ItemListing-col-25 
+{
+    width: 30%;
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.ItemListing-col-75
+{
+    width: 60%;
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.ItemListing-Form-row
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ItemListingItemEditPage-input,
+.ItemListingItemEditPage-textarea
+{
+    width: 140%;
+    height: 25px;
+}
+
+.ItemListingStatusSelect
+{
+    height: 30px;
+    width: 40%;
+    font-size: 16px;
+}
+
+.ItemListingStatusOption
+{
+    font-size: 16px;
+}
+
+.ItemListingltemEditPage-Image
+{
+    
+    width: 40%;
+    height:60%;
+    margin-top: -8px;
+    margin-left: 20%;
+}
+
+.ItemListingltemEditPage-ChangeBtn
+{
+    background-color: #00338E;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    border-radius: 14px;
+    margin-inline-start: 27%;
+
+}
+
+.ItemListingItemEditPage-btn
+{
+    background-color: #00338E;
+    color: white;
+    height: 40px;
+    /* width: 150px; */
+    font-size: 16px;
+   
+    border-radius: 14px;
+    margin: 0 84%;
+    width:8%;
+    /* 
+    margin-inline-start: 27%;
+    
+    justify-content:space-between; */
+}
+
+.ItemListingItemEditPage-btn button,
+.ItemListingItemEditPage-ChangeBtn
+{
+    background-color: #00338E;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
+    border-radius: 14px;
+}
+.ItemListing-Edit-btn {
+    width: 127px;
+    height: 30px;
+    /* float: right; */
+    /* margin-right: 20%; */
+    color: white;
+    background-color: #00338E;
+    /* border: none; */
+    border-radius: 14px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.custom-input{
+    padding:8px;
+    border:1px solid gray;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 50%;
+    height:20%
+}
+.ItemListingltemEditPage-cross {
+    margin-left: 80%;
+    width: 15%;
+    /* size:10%; */
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+}
+.confirm-button-div{
+    
+}
+

@@ -1,0 +1,248 @@
+.OnboardingMain-Container
+{
+    margin: 0;
+    padding: 0;
+}
+.onboarding-box{
+    background-color: #00338E;
+    width: 30%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* position: absolute; */
+   left:0;
+    /* float: left; */
+}
+.onboarding-box-bank{
+    background-color: #00338E;
+    width: 30%;
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* position: absolute; */
+   left:0;
+    /* float: left; */
+}
+.onboarding-form-box{
+    background-color: white;
+    width: 75%;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    position: absolute;
+    box-shadow:0 0 10px rgba(102, 99, 99, 0.3);
+    /* justify-content: center; */
+    align-items: center;
+    top:2.5vh;
+    left:21%;
+    padding: 13px;
+    
+}
+.OnboardingMain-form-box
+{
+    background-color: #f1f1f1;
+    height: 64vh;
+    width: 50%;
+    margin: 15px 25%;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* .onboarding-form-box{
+    
+    margin-left: 20%;
+    background-color: white;
+    
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+} */
+.OnboardingMain-form-items-single-row
+{
+    padding: 10px;
+}
+
+.OnboardingMain-form-items-multi-row input, 
+.OnboardingMain-form-select
+{
+    height: 35px;
+    width: 70% !important;
+    margin-top: 5px;
+}
+
+.OnboardingMain-form-items-single-row input, textarea
+{
+    height: 35px;
+    width: 60%;
+    margin-top: 3px;
+}
+
+.OnboardingMain-form-items-multi-row
+{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 60px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OnboardingMain-form-items-address-row
+{
+    /* background-color: yellow; */
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OB-SPOC-label
+{
+    margin-left: 10px;
+}
+
+.OnboardingMain-form-items-SPOC-row-1
+{
+    margin-top: -5px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+}
+
+.OB-SPOC-item
+{
+    margin: 10px;
+    width: 50%;
+}
+
+.OB-SPOC-item input
+{
+    height: 35px;
+}
+
+.OnboardingMain-form-items-SPOC-row-1 input
+{
+    width: 100%;
+}
+
+.OB-next-btn
+{
+    background-color: #00338E;
+    color: white;
+    margin: 0px 44%;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    width: 150px;
+    height: 30px;
+    justify-self: center;
+}
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+   }
+   
+  
+   
+ 
+ 
+   .onboarding-form-box h3,.onboarding-form-box-bank h3 {
+    font-size: 24px;
+    margin-bottom: -16px;
+   }
+   .onboarding-form{
+    margin-left: 3%;
+    width:99%;
+    /* background-color: bisque; */
+    margin: 0 auto;
+   }
+   .onboarding-form-bank{
+    margin-left: 13%;
+    width:76%;
+    /* justify-content: center;
+    align-items: center; */
+   
+   }
+   .onboarding-form-box-bank{
+    background-color: white;
+    width: 75%;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    position: absolute;
+    box-shadow:0 0 10px rgba(102, 99, 99, 0.3);
+    /* justify-content: center; */
+    align-items: center;
+    top:5vh;
+    left:21%;
+    padding: 13px;
+    
+}
+   .information-input{
+    display: flex;
+    width:1221px;
+    
+    /* width:1000px; */
+    padding-bottom: 3px;
+   }
+   .information-input-new{
+    display: flex;
+    width:1221px;
+    height: 13vh;
+    /* width:1000px; */
+    padding-bottom: 3px;
+   }
+   
+   .addressfield{
+    width: 352px;
+    height: 90px;
+    border: grey solid 1px;
+    /* padding: 10px;
+    margin-right: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   }
+   .next-btn {
+    height: 45px;
+    width: 12%;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #00338E;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin-left: 82%;
+    margin-bottom: 3%;
+    /* padding-bottom: 30px; */
+}
+   .back-btn{
+    height: 45px;
+    width: 12%;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #00338E;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin-right: 10%;
+   }
+   
+
+   

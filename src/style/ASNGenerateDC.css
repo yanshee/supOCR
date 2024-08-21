@@ -1,0 +1,96 @@
+.dc_content{
+    margin-top: -20px;
+}
+
+.noSummary{
+    width:100% ;
+    text-align: center;
+}
+
+.asn_number h2{
+    width: 85%;
+    text-align: center;
+   color: indigo;
+    margin-left: 10%;
+}
+.asn_number p{
+    position: relative;
+    right: 0;
+    bottom: 3.2rem;
+}
+.back_button_dc{
+    position: relative;
+    /* bottom: 3.2rem; */
+    width:90px;
+    background-color:white;
+    color: #00338E;
+    font-weight: 600;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+    outline: none;
+
+}
+.asn_detail span{
+    font-weight: 600;
+}
+.asn_detail p{
+    box-shadow: 0 0 5px rgb(163, 161, 161);
+}
+.asn_detail input{
+
+    width: 100%;
+    padding:4px 10px;
+    border: none;
+    outline: none;
+    /* color: indigo; */
+    
+    
+}
+
+.asn_detail .summarydetail{
+    background-color: rgb(214, 224, 222) !important;
+    text-wrap: wrap;
+}
+.asn_detail p{
+    background-color: white !important;  
+}
+.asn_detail_container{
+     background-color: rgb(241, 227, 227); 
+    border-radius: 5px;
+    /* height: 80%; */
+    width:73%;
+    margin-left:11%
+}
+
+.footerBtn{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerBtn div{
+    width: 10%;
+  
+    /* border: 1px solid black; */
+}
+.footerBtn .btn2{
+    background-color: red;
+}
+.footerBtn .btn1{
+background-color: #00338E;
+}
+
+.footerBtn button{
+    outline: none;
+    border: none;
+    background-color: #00338E;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 12px;
+    width: 100%;
+
+}

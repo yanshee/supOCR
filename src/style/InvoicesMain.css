@@ -1,0 +1,48 @@
+.Invoices-heading
+{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+ 
+.InvoiceTitle {
+    text-align: center;
+    /* margin-bottom: 4px; */
+    /* margin-left: 20px; */
+    height: 40px;
+    width: 100%;
+    border-radius: 24px;
+}
+tr:hover {background-color: #93C0F6;}
+.InvoiceTitle p {
+    color: #000000;
+    /* margin-top: 3px; */
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+ 
+.CreateInvBtn
+{
+    height: 30px;
+    width: auto;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    background-color: #00338E;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.CreateInvBtn1 {
+   
+ 
+    color: white;
+    align-self: center;
+   
+ 
+}

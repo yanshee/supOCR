@@ -1,0 +1,69 @@
+.OnboardingMain-Container
+{
+    margin: 0;
+    padding: 0;
+}
+
+.OnboardingSub-Title
+{
+    width: 50%;
+    margin: 30px 25%;
+    font-size: 16px;
+    font-weight: 500;
+}
+input.onboarding_message {
+    font-size: 17px;
+    height: 35px;
+    width: 450px;
+    margin: 0px 30px;
+    padding: 25px;
+}
+/* .OnboardingSubmission-form-box {
+    background-color: #effaff;
+    width: 50%;
+    margin: 15px 25%;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 17px;
+} */
+.OnboardingSubmission-form-box{
+    background-color: white;
+    width: 70%;
+    height: auto;
+    margin-left: 13%;
+    margin-top: 5%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 5px #ccc;
+    margin-top: 257px;
+    padding-left: 30px;
+    
+}
+/* hr{
+    margin:20px 0;
+    border-top:1px solid gray;
+    border:none;
+} */
+.OnboardingSubmission-form-box p {
+    margin-left: 10px;
+    /* margin-top: 39px; */
+}
+.OBSubmission-next-btn
+{
+    background-color: #00338E;
+    color: white;
+    margin: 0px 44%;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    width: 150px;
+    height: 30px;
+    justify-self: center;
+}
+.OnboardingSummary-form-box{
+
+}
